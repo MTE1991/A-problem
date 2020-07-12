@@ -17,9 +17,9 @@ int main()
     for(i=0; i<n; i++);
     {
         sum = sum + a[n];
+        printf("The sum is: %d\n", sum);
     }
-    
-    printf("The sum is: %d\n", sum);
+   
     printf("The average is: %.2f\n", (float)sum/n);
 
 }
